@@ -19,7 +19,10 @@ export default function Hero15() {
         >
           <div
             className='swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image'
-            style={{ backgroundImage: 'url("/img/photos/bg7.jpg")' }}
+            style={{
+              backgroundImage: 'url("/img/photos/bg7.jpg")',
+              backgroundPosition: '80%',
+            }}
           >
             <div className='container h-100'>
               {/* <div className='row h-100'>

@@ -84,10 +84,21 @@ export default function NavbarOne({
       <div
         id='offcanvas-nav'
         data-bs-scroll='true'
-        className='navbar-collapse offcanvas offcanvas-nav offcanvas-start'
+        className='navbar-collapse offcanvas offcanvas-nav offcanvas-start w-100'
       >
         <div className='offcanvas-header d-lg-none'>
-          <h3 className='text-white fs-30 mb-0'>Sandbox</h3>
+          <NextLink
+            href='/'
+            title={
+              <img
+                alt='logo'
+                src={`/img/${logo}.png`}
+                srcSet={`/img/${logo}@2x.png 3x`}
+                // src='/img/logo-feijao.png'
+              />
+            }
+          />
+
           <button
             type='button'
             aria-label='Close'
@@ -136,15 +147,15 @@ export default function NavbarOne({
       </div>
 
       {/* ============= right side header content ============= */}
-      {/* <HeaderRight
-        cart={cart}
-        info={info}
-        button={button}
-        search={search}
-        social={social}
-        language={language}
+      <HeaderRight
+        // cart={cart}
+        // info={info}
+        // button={button}
+        // search={search}
+        // social={social}
+        // language={language}
         navOtherClass={navOtherClass}
-      /> */}
+      />
     </Fragment>
   );
 
