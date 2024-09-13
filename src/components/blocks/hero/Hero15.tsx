@@ -20,31 +20,25 @@ export default function Hero15() {
           <div
             className='swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image'
             style={{
-              backgroundImage: 'url("/img/photos/bg7.jpg")',
-              backgroundPosition: '80%',
+              backgroundImage: 'url("/img/hero-banner.svg")',
+              backgroundPosition: '100% 0%',
+              backgroundRepeat: 'no-repeat',
             }}
           >
             <div className='container h-100'>
-              {/* <div className='row h-100'>
+              <div className='row h-100'>
                 <div className='col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start'>
                   <h2 className='display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s'>
-                    We bring solutions to make life easier asdasd.
+                    Vereador <br />
+                    JOÃO FEIJÃO <br />
+                    <span className='underline-3 style-2 red'>13031</span>
                   </h2>
 
-                  <p className='lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s'>
-                    We are a creative company that focuses on long term
-                    relationships with customers.
+                  <p className='lead fs-28 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s'>
+                    Por uma Belo Horizonte viva!
                   </p>
-
-                  <div className='animate__animated animate__slideInUp animate__delay-3s'>
-                    <NextLink
-                      title='Read More'
-                      href='#'
-                      className='btn btn-lg btn-outline-white rounded-pill'
-                    />
-                  </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </Carousel>
