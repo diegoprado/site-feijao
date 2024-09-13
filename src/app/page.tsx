@@ -192,9 +192,6 @@ export default function Demo15() {
 
         <Testimonial4 />
 
-        {/* ========== team section ========== */}
-        <Team3 />
-
         {/* ========== contact section ========== */}
         <Contact7 />
 
