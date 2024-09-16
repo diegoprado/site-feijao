@@ -12,7 +12,10 @@ export default function Tiles5() {
 
       <div className='overlap-grid overlap-grid-2'>
         {images.map((item, i) => (
-          <div className='item' key={item + i}>
+          <div
+            className={`item ${i > 0 ? 'hidden md:block' : ''}`}
+            key={item + i}
+          >
             <figure className='rounded shadow'>
               <img
                 src={`/img/photos/${item}.jpg`}

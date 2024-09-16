@@ -68,15 +68,23 @@ export default function Demo15() {
                 'Nosso projeto acredita na necessidade urgente de uma Cidade Viva, com três bandeiras fundamentais: esporte, mobilidade e cuidado com a cidade e com as pessoas. Queremos uma cidade pensada especialmente para o pedestre e para as mulheres, porque quando criamos um ambiente seguro e acolhedor para elas, criamos um lugar melhor para todos.',
               ]}
             />
+          </div>
 
-            <div className='flex gap-4 mt-15'>
-              <div className='flex  max-w-[100px]'>
-                <h2 className='heading-2 [writing-mode:vertical-lr] rotate-180 font-bold text-red-200 text-6xl'>
+          <div className='bg-red w-full'>
+            <h2 className='text-white flex items-center justify-center text-6xl p-5'>
+              JOÃO FEIJÃO É 13031.
+            </h2>
+          </div>
+
+          <div className='container py-14 py-md-16'>
+            <div className='flex flex-col md:flex-row gap-4'>
+              <div className='flex max-w-[100px]'>
+                <h2 className='heading-2 text-4xl md:text-6xl [writing-mode:initial] md:[writing-mode:vertical-lr] rotate-0 md:rotate-180 font-bold text-red-200'>
                   Esporte
                 </h2>
               </div>
 
-              <div className=''>
+              <div>
                 <p>
                   <strong>EU SOU CORREDOR</strong> e acredito no esporte como
                   ferramenta de inclusão social, lazer, desenvolvimento
@@ -102,15 +110,17 @@ export default function Demo15() {
                 </ul>
               </div>
             </div>
-            <hr />
-            <div className='flex gap-4 mt-15'>
-              <div className='flex  max-w-[100px]'>
-                <h2 className='heading-2 [writing-mode:vertical-lr] rotate-180 font-bold text-red-200 text-6xl'>
+
+            <hr className='my-10 md:my-15' />
+
+            <div className='flex flex-col md:flex-row gap-4'>
+              <div className='flex max-w-[100px]'>
+                <h2 className='heading-2 text-4xl md:text-6xl [writing-mode:initial] md:[writing-mode:vertical-lr] rotate-0 md:rotate-180 font-bold text-red-200'>
                   Mobilidade
                 </h2>
               </div>
 
-              <div className=''>
+              <div>
                 <p>
                   <strong>EU SOU USUÁRIO DE TRANSPORTE PÚBLICO</strong> e sei
                   que a mobilidade deve ser tratada como prioridade pela
@@ -152,9 +162,9 @@ export default function Demo15() {
 
             <hr />
 
-            <div className='flex gap-4 mt-15'>
-              <div className='flex  max-w-[100px]'>
-                <h2 className='heading-2 [writing-mode:vertical-lr] rotate-180 font-bold text-red-200 text-6xl'>
+            <div className='flex flex-col md:flex-row gap-4'>
+              <div className='flex max-w-[100px]'>
+                <h2 className='heading-2 text-4xl md:text-6xl [writing-mode:initial] md:[writing-mode:vertical-lr] rotate-0 md:rotate-180 font-bold text-red-200'>
                   Cuidado
                 </h2>
               </div>
