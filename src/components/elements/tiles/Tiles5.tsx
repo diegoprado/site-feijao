@@ -1,8 +1,10 @@
 import { Fragment } from 'react';
 
-export default function Tiles5() {
-  const images = ['feijao-2', 'feijao-1'];
+type TilesProps = {
+  images: string[];
+};
 
+export default function Tiles5({ images }: TilesProps) {
   return (
     <Fragment>
       <div
@@ -16,13 +18,23 @@ export default function Tiles5() {
             className={`item ${i > 0 ? 'hidden md:block' : ''}`}
             key={item + i}
           >
-            <figure className='rounded shadow'>
+            {/* <figure className='rounded shadow'>
               <img
-                src={`/img/photos/${item}.jpg`}
+                key={i}
+                src={item}
                 // srcSet={`/img/photos/${item}@2x.jpg 2x`}
                 alt={item}
               />
-            </figure>
+            </figure> */}
+            <div
+              className='w-[450px] h-[450px] rounded shadow-md'
+              style={{
+                background: `url(${item})`,
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center center',
+              }}
+            />
           </div>
         ))}
       </div>

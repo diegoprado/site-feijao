@@ -46,6 +46,7 @@ export default function Contact7() {
                 </p>
               </div>
             </div>
+
             <div className='d-flex flex-row'>
               <div>
                 <IconBox
@@ -62,6 +63,30 @@ export default function Contact7() {
                 <p>
                   <Link href='http://joaofeijao.com.br/time' target='_blank'>
                     Entre no nosso grupo sem falazada
+                  </Link>
+                </p>
+              </div>
+            </div>
+
+            <div className='d-flex flex-row'>
+              <div>
+                <IconBox
+                  className='icon text-primary fs-28 me-6 mt-n1'
+                  icon='uil-whatsapp'
+                />
+              </div>
+
+              <div>
+                <p className='mb-1'>
+                  Quer conversar, discutir ideias, falar comigo e conversar com
+                  o Time do Feijão?
+                </p>
+                <p>
+                  <Link
+                    href='http://joaofeijao.com.br/mobilizacao'
+                    target='_blank'
+                  >
+                    Entre no nosso grupo aberto
                   </Link>
                 </p>
               </div>

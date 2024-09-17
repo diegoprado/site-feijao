@@ -46,8 +46,12 @@ export default function Demo15() {
               title='Quem sou'
               id='quem-sou'
               text={[
-                'Eu sou o João Feijão, corredor amador, amante do samba, engenheiro, atleticano de coração, morador da zona leste e presidente da Galo Runners. Estou no corre por uma BH melhor!',
-                'Nasci em Curvelo e, assim como muitos belo-horizontinos, mudei para a capital em busca de um futuro melhor. Minha militância começou cedo, no movimento estudantil. Na UFMG me engajei ainda mais: participei do Grêmio de Engenharia Elétrica, do Diretório Acadêmico da Engenharia e tive o privilégio de presidir a Federação Mineira de Empresas Juniores, a FEJEMG.',
+                '<strong>Eu sou o João Feijão</strong>, corredor amador, amante do samba, engenheiro, atleticano de coração, morador da zona leste e presidente da Galo Runners. <strong>Estou no corre por uma BH melhor!</strong>',
+                'Nasci em Curvelo e, assim como muitos belo-horizontinos, mudei para a capital em busca de um <strong>futuro melhor</strong>. Minha militância começou cedo, no movimento estudantil. Na UFMG me engajei ainda mais: participei do Grêmio de Engenharia Elétrica, do Diretório Acadêmico da Engenharia e tive o privilégio de presidir a Federação Mineira de Empresas Juniores, a FEJEMG.',
+              ]}
+              images={[
+                '/img/photos/feijao-quem-sou-2.jpeg',
+                '/img/photos/feijao-quem-sou.jpeg',
               ]}
             />
 
@@ -56,8 +60,12 @@ export default function Demo15() {
               title='O que penso'
               id='o-que-penso'
               text={[
-                'Quero retribuir tudo que BH me deu ajudando a construir uma cidade que não deixe ninguém pra trás. Somos a 3ª capital de estado mais rica do Brasil, mas essa grana não chega no dia a dia da maior parte desse povo. Precisamos construir uma cidade viva.',
-                'Hoje, como presidente da Galo Runners, tenho orgulho de liderar uma equipe de corredores que, desde 2015, não só promove a prática esportiva, mas também realiza ações sociais que impactam a vida das pessoas. Utilizamos nosso amor pelo Galo e pela corrida sem deixar de lado a solidariedade e a transformação social.',
+                'Quero retribuir tudo que BH me deu ajudando a construir uma cidade que não deixe ninguém pra trás. Somos a 3ª capital de estado mais rica do Brasil, mas essa grana não chega no dia a dia da maior parte desse povo. <strong>Precisamos construir uma cidade viva</strong>.',
+                'Hoje, como presidente da <strong>Galo Runners</strong>, tenho orgulho de liderar uma equipe de corredores que, desde 2015, não só promove a prática esportiva, mas também realiza <strong>ações sociais</strong> que impactam a vida das pessoas. Utilizamos nosso amor pelo Galo e pela corrida sem deixar de lado a <strong>solidariedade</strong> e a <strong>transformação social</strong>.',
+              ]}
+              images={[
+                '/img/photos/feijao-o-que-penso-2.jpeg',
+                '/img/photos/feijao-o-que-penso.jpeg',
               ]}
             />
 
@@ -65,7 +73,11 @@ export default function Demo15() {
               title='O que quero'
               id='o-que-quero'
               text={[
-                'Nosso projeto acredita na necessidade urgente de uma Cidade Viva, com três bandeiras fundamentais: esporte, mobilidade e cuidado com a cidade e com as pessoas. Queremos uma cidade pensada especialmente para o pedestre e para as mulheres, porque quando criamos um ambiente seguro e acolhedor para elas, criamos um lugar melhor para todos.',
+                'Nosso projeto acredita na necessidade urgente de uma <strong>Cidade Viva</strong>, com três bandeiras fundamentais: <strong>esporte</strong>, <strong>mobilidade</strong> e <strong>cuidado</strong> com a cidade e com as pessoas. Queremos uma cidade pensada especialmente para o pedestre e para as mulheres, porque quando criamos um ambiente seguro e acolhedor para elas, criamos um <strong>lugar melhor para todos</strong>.',
+              ]}
+              images={[
+                '/img/photos/feijao-o-que-quero-2.jpeg',
+                '/img/photos/feijao-o-que-quero.jpeg',
               ]}
             />
           </div>
