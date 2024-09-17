@@ -5,7 +5,7 @@ import { Process7 } from 'components/blocks/process';
 import { Team3 } from 'components/blocks/team';
 import { About6, Sobre } from 'components/blocks/about';
 import { Facts5 } from 'components/blocks/facts';
-import { Footer9 } from 'components/blocks/footer';
+import { Footer15, Footer9 } from 'components/blocks/footer';
 import { Contact7 } from 'components/blocks/contact';
 import { CTA5 } from 'components/blocks/call-to-action';
 import {
@@ -40,7 +40,7 @@ export default function Demo15() {
         <Hero15 />
 
         <section className='wrapper bg-light angled lower-end'>
-          <div className='container py-14 py-md-16'>
+          <div className='container pt-14 pt-md-16'>
             {/* ========== about section ========== */}
             <Sobre
               title='Quem sou'
@@ -70,10 +70,24 @@ export default function Demo15() {
             />
           </div>
 
-          <div className='bg-red w-full'>
-            <h2 className='text-white flex items-center justify-center text-6xl p-5'>
-              JOÃO FEIJÃO É 13031.
-            </h2>
+          <div
+            className='w-full'
+            style={{
+              backgroundImage: 'url("/img/hero-banner.svg")',
+              backgroundPosition: '100% 15%',
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'cover',
+            }}
+          >
+            <div className='container py-15'>
+              <h2 className='text-white flex items-start justify-start md:text-6xl py-5 flex-col md:flex-row'>
+                João Feijão é{' '}
+                <span className='underline-3 style-2 white md:ml-5'>
+                  {' '}
+                  13031.
+                </span>
+              </h2>
+            </div>
           </div>
 
           <div className='container py-14 py-md-16'>
@@ -144,7 +158,7 @@ export default function Demo15() {
                   <li>
                     <Link
                       href='https://lookerstudio.google.com/u/0/reporting/3c67c9cd-2450-4963-aab1-0251b4fdc75f/page/VWUpD'
-                      className='text-gray-600'
+                      className='text-gray-600 underline'
                     >
                       Aprovação do Projeto de Lei da Tarifa zero, já protocolado
                       na Câmara. Hoje, 5.6 milhões de brasileiros de 116 cidades
@@ -180,7 +194,7 @@ export default function Demo15() {
                   <li>
                     <Link
                       href='https://www.otempo.com.br/cidades/2024/5/24/apenas-1-1--dos-residuos-coletados-em-bh-sao-reciclados'
-                      className='text-gray-600'
+                      className='text-gray-600 underline'
                     >
                       Coleta seletiva eficiente, abrangente e universal,
                       atendendo todos os bairros da cidade. Apenas 1,1% dos
@@ -210,7 +224,7 @@ export default function Demo15() {
       </main>
 
       {/* ========== footer section ========== */}
-      <Footer9 />
+      <Footer15 />
     </Fragment>
   );
 }

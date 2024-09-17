@@ -67,13 +67,13 @@ export default function NavbarOne({
   // all main header contents
   const headerContent = (
     <Fragment>
-      <div className='navbar-brand w-100'>
+      <div className='navbar-brand w-100 py-2'>
         <NextLink
           href='/'
-          className='p-4'
+          className=''
           title={
             <img
-              className='max-w-[130px]'
+              className={`max-w-[130px] ${sticky ? 'max-h-[50px]' : ''}`}
               alt='logo'
               src={`/img/${logo}.svg`}
               srcSet={`/img/${logo}.svg 3x`}
