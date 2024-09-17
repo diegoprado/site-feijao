@@ -88,19 +88,18 @@ export default function NavbarOne({
         data-bs-scroll='true'
         className='navbar-collapse offcanvas offcanvas-nav offcanvas-start w-100'
       >
-        <div className='offcanvas-header d-lg-none'>
+        <div className='offcanvas-header d-lg-none flex justify-between'>
           <NextLink
             href='/'
             title={
               <img
-                className='w-100'
+                className={`max-w-[150px] ${sticky ? 'max-h-[70px]' : ''}`}
                 alt='logo'
-                src={`/img/${logo}-dark.svg`}
-                srcSet={`/img/${logo}-dark.svg 3x`}
+                src={`/img/${logo}.svg`}
+                srcSet={`/img/${logo}.svg 3x`}
               />
             }
           />
-
           <button
             type='button'
             aria-label='Close'
@@ -146,13 +145,6 @@ export default function NavbarOne({
           {/* ============= show contact info in the small device sidebar ============= */}
           <div className='offcanvas-footer d-lg-none'>
             <div>
-              <NextLink
-                title='info@email.com'
-                className='link-inverse'
-                href='mailto:first.last@email.com'
-              />
-              <br />
-              <NextLink href='tel:0123456789' title='00 (123) 456 78 90' />
               <br />
               <SocialLinks />
             </div>
@@ -190,21 +182,6 @@ export default function NavbarOne({
           </div>
         )}
       </nav>
-
-      {/* ============= signin modal ============= */}
-      <Signin />
-
-      {/* ============= signup modal ============= */}
-      <Signup />
-
-      {/* ============= info sidebar ============= */}
-      {info ? <Info /> : null}
-
-      {/* ============= show search box ============= */}
-      {search ? <Search /> : null}
-
-      {/* ============= cart sidebar ============= */}
-      {cart ? <MiniCart /> : null}
     </Fragment>
   );
 }

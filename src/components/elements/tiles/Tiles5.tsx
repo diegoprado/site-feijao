@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 
 type TilesProps = {
-  images?: string[];
+  images: string[];
 };
 
 export default function Tiles5({ images }: TilesProps) {
@@ -13,9 +13,9 @@ export default function Tiles5({ images }: TilesProps) {
       />
 
       <div className='overlap-grid overlap-grid-2'>
-        {images?.map((item, i) => (
+        {images.map((item, i) => (
           <div
-            className={`item ${i > 0 ? 'hidden md:block' : ''}`}
+            className={`item !w-full ${i > 0 ? 'hidden md:block' : ''}`}
             key={item + i}
           >
             {/* <figure className='rounded shadow'>
@@ -27,7 +27,7 @@ export default function Tiles5({ images }: TilesProps) {
               />
             </figure> */}
             <div
-              className='w-[450px] h-[300px] md:h-[450px] rounded shadow-md max-w-full'
+              className='w-[450px] h-[450px] md:h-[450px] rounded shadow-md max-w-full'
               style={{
                 background: `url(${item})`,
                 backgroundSize: 'cover',

@@ -1,24 +1,10 @@
 import { Fragment } from 'react';
 // GLOBAL CUSTOM COMPONENTS
 import Navbar from 'components/blocks/navbar/navbar-1';
-import { Process7 } from 'components/blocks/process';
-import { Team3 } from 'components/blocks/team';
-import { About6, Sobre } from 'components/blocks/about';
-import { Facts5 } from 'components/blocks/facts';
+import { Sobre } from 'components/blocks/about';
 import { Footer15, Footer9 } from 'components/blocks/footer';
 import { Contact7 } from 'components/blocks/contact';
-import { CTA5 } from 'components/blocks/call-to-action';
-import {
-  Testimonial1,
-  Testimonial2,
-  Testimonial3,
-  Testimonial4,
-  Testimonial5,
-  Testimonial6,
-  Testimonial7,
-  Testimonial8,
-  Testimonial9,
-} from 'components/blocks/testimonial';
+import { Testimonial4 } from 'components/blocks/testimonial';
 import Hero15 from 'components/blocks/hero/Hero15';
 import Link from 'next/link';
 
@@ -50,8 +36,8 @@ export default function Demo15() {
                 'Nasci em Curvelo e, assim como muitos belo-horizontinos, mudei para a capital em busca de um <strong>futuro melhor</strong>. Minha militância começou cedo, no movimento estudantil. Na UFMG me engajei ainda mais: participei do Grêmio de Engenharia Elétrica, do Diretório Acadêmico da Engenharia e tive o privilégio de presidir a Federação Mineira de Empresas Juniores, a FEJEMG.',
               ]}
               images={[
-                '/img/photos/feijao-quem-sou-2.jpeg',
                 '/img/photos/feijao-quem-sou.jpeg',
+                '/img/photos/feijao-quem-sou-2.jpeg',
               ]}
             />
 
@@ -64,8 +50,8 @@ export default function Demo15() {
                 'Hoje, como presidente da <strong>Galo Runners</strong>, tenho orgulho de liderar uma equipe de corredores que, desde 2015, não só promove a prática esportiva, mas também realiza <strong>ações sociais</strong> que impactam a vida das pessoas. Utilizamos nosso amor pelo Galo e pela corrida sem deixar de lado a <strong>solidariedade</strong> e a <strong>transformação social</strong>.',
               ]}
               images={[
-                '/img/photos/feijao-o-que-penso-2.jpeg',
                 '/img/photos/feijao-o-que-penso.jpeg',
+                '/img/photos/feijao-o-que-penso-2.jpeg',
               ]}
             />
 
@@ -76,8 +62,8 @@ export default function Demo15() {
                 'Nosso projeto acredita na necessidade urgente de uma <strong>Cidade Viva</strong>, com três bandeiras fundamentais: <strong>esporte</strong>, <strong>mobilidade</strong> e <strong>cuidado</strong> com a cidade e com as pessoas. Queremos uma cidade pensada especialmente para o pedestre e para as mulheres, porque quando criamos um ambiente seguro e acolhedor para elas, criamos um <strong>lugar melhor para todos</strong>.',
               ]}
               images={[
-                '/img/photos/feijao-o-que-quero-2.jpeg',
                 '/img/photos/feijao-o-que-quero.jpeg',
+                '/img/photos/feijao-o-que-quero-2.jpeg',
               ]}
             />
           </div>
