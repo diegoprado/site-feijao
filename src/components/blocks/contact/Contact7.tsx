@@ -15,7 +15,7 @@ export default function Contact7() {
 
             <figure className='rounded'>
               <img
-                src='/img/photos/feijao-1.jpg'
+                src='/img/photos/time-feijao.jpeg'
                 // srcSet='/img/photos/about4@2x.jpg 2x'
                 alt=''
               />

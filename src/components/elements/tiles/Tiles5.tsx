@@ -27,7 +27,7 @@ export default function Tiles5({ images }: TilesProps) {
               />
             </figure> */}
             <div
-              className='w-[450px] h-[450px] rounded shadow-md'
+              className='w-[450px] h-[300px] md:h-[450px] rounded shadow-md max-w-full'
               style={{
                 background: `url(${item})`,
                 backgroundSize: 'cover',

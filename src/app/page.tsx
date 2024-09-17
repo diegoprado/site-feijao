@@ -35,7 +35,7 @@ export default function Demo15() {
       </header>
 
       {/* ========== main content ========== */}
-      <main className='content-wrapper'>
+      <main className='content-wrapper max-w-full'>
         {/* ========== hero sections ========== */}
         <Hero15 />
 
@@ -83,16 +83,16 @@ export default function Demo15() {
           </div>
 
           <div
-            className='w-full'
+            className='w-full overflow-hidden'
             style={{
-              backgroundImage: 'url("/img/hero-banner.svg")',
+              backgroundImage: 'url("/img/photos/banner-joao-feijao.jpeg")',
               backgroundPosition: '100% 15%',
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover',
             }}
           >
             <div className='container py-15'>
-              <h2 className='text-white flex items-start justify-start md:text-6xl py-5 flex-col md:flex-row'>
+              <h2 className='text-white flex items-start justify-start md:text-6xl py-5 flex-col lg:flex-row'>
                 João Feijão é{' '}
                 <span className='underline-3 style-2 white md:ml-5'>
                   {' '}
@@ -170,7 +170,7 @@ export default function Demo15() {
                   <li>
                     <Link
                       href='https://lookerstudio.google.com/u/0/reporting/3c67c9cd-2450-4963-aab1-0251b4fdc75f/page/VWUpD'
-                      className='text-gray-600 underline'
+                      className='text-gray-600'
                     >
                       Aprovação do Projeto de Lei da Tarifa zero, já protocolado
                       na Câmara. Hoje, 5.6 milhões de brasileiros de 116 cidades
@@ -206,7 +206,7 @@ export default function Demo15() {
                   <li>
                     <Link
                       href='https://www.otempo.com.br/cidades/2024/5/24/apenas-1-1--dos-residuos-coletados-em-bh-sao-reciclados'
-                      className='text-gray-600 underline'
+                      className='text-gray-600 '
                     >
                       Coleta seletiva eficiente, abrangente e universal,
                       atendendo todos os bairros da cidade. Apenas 1,1% dos
