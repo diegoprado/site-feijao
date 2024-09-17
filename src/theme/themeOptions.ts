@@ -34,7 +34,7 @@ const changeColor = (colorPath?: string | null, fontPath?: string | null) => {
 const changeTheme = (pathname: string) => {
   switch (pathname) {
     case '/':
-      changeColor('/css/colors/red.css', '/css/fonts/thicccboi.css');
+      changeColor('/css/colors/red.css', '/css/fonts/montserrat.css');
       break;
 
     case '/demo-1':
@@ -90,7 +90,7 @@ const changeTheme = (pathname: string) => {
       break;
 
     case '/demo-15':
-      changeColor('/css/colors/red.css', '/css/fonts/thicccboi.css');
+      changeColor('/css/colors/red.css', '/css/fonts/montserrat.css');
       break;
 
     case '/demo-16':
@@ -170,7 +170,7 @@ const changeTheme = (pathname: string) => {
       break;
 
     default:
-      changeColor('/css/colors/red.css', '/css/fonts/thicccboi.css');
+      changeColor('/css/colors/red.css', '/css/fonts/montserrat.css');
       return;
   }
 };

@@ -58,7 +58,7 @@ export default function NavbarOne({
   const navbarRef = useRef<HTMLElement | null>(null);
 
   // dynamically render the logo
-  const logo = sticky ? 'logo-feijao' : logoAlt ?? 'logo-feijao';
+  const logo = sticky ? 'logo-feijao-dark' : logoAlt ?? 'logo-feijao';
 
   // dynamically added navbar className
   const fixedClassName =
@@ -67,14 +67,16 @@ export default function NavbarOne({
   // all main header contents
   const headerContent = (
     <Fragment>
-      <div className='navbar-brand w-100'>
+      <div className='navbar-brand w-100 py-2'>
         <NextLink
           href='/'
+          className=''
           title={
             <img
+              className={`max-w-[130px] ${sticky ? 'max-h-[50px]' : ''}`}
               alt='logo'
-              src={`/img/${logo}.png`}
-              srcSet={`/img/${logo}@2x.png 3x`}
+              src={`/img/${logo}.svg`}
+              srcSet={`/img/${logo}.svg 3x`}
               // src='/img/logo-feijao.png'
             />
           }
@@ -91,10 +93,10 @@ export default function NavbarOne({
             href='/'
             title={
               <img
+                className='w-100'
                 alt='logo'
-                src={`/img/${logo}.png`}
-                srcSet={`/img/${logo}@2x.png 3x`}
-                // src='/img/logo-feijao.png'
+                src={`/img/${logo}-dark.svg`}
+                srcSet={`/img/${logo}-dark.svg 3x`}
               />
             }
           />
@@ -110,21 +112,33 @@ export default function NavbarOne({
         <div className='offcanvas-body ms-lg-auto d-flex flex-column h-100'>
           <ul className='navbar-nav'>
             <li className='nav-item'>
-              <Link
-                href='quem-e-feijao'
-                title='Quem é João Feijão?'
-                className='nav-link'
-              >
-                Quem é João Feijão?
+              <Link href='#quem-sou' title='Quem sou' className='nav-link'>
+                Quem sou
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                href='bandeiras-e-propostas'
-                title='Bandeiras e Propostas'
-                className='nav-link'
-              >
-                Bandeiras e Propostas
+              <Link href='#' title='O que penso' className='nav-link'>
+                O que penso
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link href='#' title='' className='nav-link'>
+                A BH que eu quero
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link href='#' title='' className='nav-link'>
+                Time do Feijão
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link href='#' title='' className='nav-link'>
+                Contato
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link href='#' title='' className='nav-link'>
+                Materiais
               </Link>
             </li>
           </ul>

@@ -5,7 +5,7 @@ import ScrollCue from './scroll-cue';
 import ThemeProvider from 'theme/ThemeProvider';
 
 import PageProgress from 'components/common/PageProgress';
-
+import './globals.css';
 // animate css
 import 'animate.css';
 // import swiper css
