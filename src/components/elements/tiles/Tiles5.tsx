@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 
 type TilesProps = {
-  images: string[];
+  images?: string[];
 };
 
 export default function Tiles5({ images }: TilesProps) {
@@ -13,7 +13,7 @@ export default function Tiles5({ images }: TilesProps) {
       />
 
       <div className='overlap-grid overlap-grid-2'>
-        {images.map((item, i) => (
+        {images?.map((item, i) => (
           <div
             className={`item ${i > 0 ? 'hidden md:block' : ''}`}
             key={item + i}
