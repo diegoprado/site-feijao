@@ -1,25 +1,25 @@
+import { Tiles5 } from 'components/elements/tiles';
 import IconBox from 'components/reuseable/IconBox';
 import TeleMarketer from 'icons/lineal/TeleMarketer';
 import Link from 'next/link';
 
 export default function Contact7() {
   return (
-    <section className='wrapper bg-light angled upper-end lower-end'>
+    <section
+      className='wrapper bg-light angled upper-end lower-end'
+      id='contato'
+    >
       <div className='container pt-9 pb-7 pt-md-5 pb-md-4'>
-        <div className='row gx-md-8 gx-xl-12 gy-10 align-items-center'>
-          <div className='col-md-8 col-lg-6 offset-lg-0 col-xl-5 offset-xl-1 position-relative'>
-            <div
-              className='shape bg-dot primary rellax w-17 h-21'
-              style={{ top: '-2rem', left: '-1.4rem' }}
+        <div
+          className={`row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center flex flex-row-reverse `}
+        >
+          <div className='col-lg-6 position-relative order-lg-2'>
+            <Tiles5
+              images={[
+                '/img/photos/time-feijao.jpeg',
+                '/img/photos/time-feijao-2.jpeg',
+              ]}
             />
-
-            <figure className='rounded'>
-              <img
-                src='/img/photos/time-feijao.jpeg'
-                // srcSet='/img/photos/about4@2x.jpg 2x'
-                alt=''
-              />
-            </figure>
           </div>
 
           <div className='col-lg-6'>

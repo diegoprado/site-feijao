@@ -27,7 +27,7 @@ export default function Hero15() {
           >
             <div className='container h-100'>
               <div className='row h-100'>
-                <div className='col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start'>
+                <div className='col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start flex flex-col items-center justify-end md:justify-center'>
                   <h2 className='display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s'>
                     Vereador <br />
                     JOÃO FEIJÃO <br />

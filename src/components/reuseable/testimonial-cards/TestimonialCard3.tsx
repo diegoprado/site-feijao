@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import clsx from 'clsx';
+import Link from 'next/link';
 
 // =================================================
 interface TestimonialCard3Props {
@@ -9,6 +10,10 @@ interface TestimonialCard3Props {
   shadow?: boolean;
   designation?: string;
   hideRating?: boolean;
+  socialLink?: {
+    label: string;
+    url: string;
+  };
 }
 // =================================================
 
@@ -19,6 +24,7 @@ export default function TestimonialCard3({
   shadow,
   hideRating,
   designation,
+  socialLink,
 }: TestimonialCard3Props) {
   return (
     <div className={clsx({ card: true, 'shadow-lg': shadow })}>
@@ -39,7 +45,16 @@ export default function TestimonialCard3({
 
             <div className='info'>
               <h5 className='mb-0'>{name}</h5>
-              <p className='mb-0'>{designation}</p>
+              {designation && <p className='mb-0'>{designation}</p>}
+              {socialLink && (
+                <Link
+                  target='_blank'
+                  href={socialLink?.url || ''}
+                  className='flex items-center text-sm'
+                >
+                  @{socialLink?.label}
+                </Link>
+              )}
             </div>
           </div>
         </blockquote>
