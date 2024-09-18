@@ -110,33 +110,69 @@ export default function NavbarOne({
 
         <div className='offcanvas-body ms-lg-auto d-flex flex-column h-100'>
           <ul className='navbar-nav'>
-            <li className='nav-item'>
-              <Link href='#quem-sou' title='Quem sou' className='nav-link'>
+            <li
+              className='nav-item'
+              data-bs-dismiss='offcanvas'
+              data-bs-toggle='offcanvas'
+            >
+              <Link title='Quem sou' className='nav-link' href='#quem-sou'>
                 Quem sou
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link href='#' title='O que penso' className='nav-link'>
+            <li
+              className='nav-item'
+              data-bs-dismiss='offcanvas'
+              data-bs-toggle='offcanvas'
+            >
+              <Link
+                title='O que penso'
+                className='nav-link'
+                href='#o-que-penso'
+              >
                 O que penso
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link href='#' title='' className='nav-link'>
+            <li
+              className='nav-item'
+              data-bs-dismiss='offcanvas'
+              data-bs-toggle='offcanvas'
+            >
+              <Link
+                title='A BH que eu quero'
+                className='nav-link'
+                href='#o-que-quero'
+              >
                 A BH que eu quero
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link href='#' title='' className='nav-link'>
+            <li
+              className='nav-item'
+              data-bs-dismiss='offcanvas'
+              data-bs-toggle='offcanvas'
+            >
+              <Link
+                title='Time do Feijão'
+                className='nav-link'
+                href='#time-feijao'
+              >
                 Time do Feijão
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link href='#' title='' className='nav-link'>
+            <li
+              className='nav-item'
+              data-bs-dismiss='offcanvas'
+              data-bs-toggle='offcanvas'
+            >
+              <Link title='Contato' className='nav-link' href='#contato'>
                 Contato
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link href='#' title='' className='nav-link'>
+            <li
+              className='nav-item'
+              data-bs-dismiss='offcanvas'
+              data-bs-toggle='offcanvas'
+            >
+              <Link title='Materiais' className='nav-link' href='#contato'>
                 Materiais
               </Link>
             </li>

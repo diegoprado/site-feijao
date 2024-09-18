@@ -70,23 +70,18 @@ export const depoimentos = [
       url: 'https://www.instagram.com/quelrbaptista',
     },
   },
-  // {
-  //   name: 'Rodrigo Dornellas',
-  //   image: '/img/testimonials/pernas_aluguel.jpg',
-  //   review: `É com muita gratidão e confiança que venho aqui demonstrar meu apoio ao João Feijão, que sempre esteve ao nosso lado, de forma incondicional, nos projetos sociais e esportivos, especialmente nas corridas de rua. Tenho uma enorme admiração pelo seu envolvimento na defesa de uma sociedade mais justa, inclusiva e democrática.
-  // A corrida de rua é um dos esportes mais democráticos que existem, onde todos, independentemente de sexo, cor, crença, idade ou limitações, correm juntos. Foi nesse meio que tive o privilégio de conhecer o Feijão e me tornar seu amigo.
-  // Hoje, estou confiante de que ele reúne todas as qualificações para ser um excelente vereador. Feijão terá meu voto para representar os valores sociais que acredito serem essenciais para uma Belo Horizonte cada vez melhor, investindo em acessibilidade, oportunidades e na valorização de todas as pessoas.
-  // `,
-  //   socialLink: {
-  //     label: 'pernasdealuguel_bh',
-  //     url: 'https://www.instagram.com/pernasdealuguel_bh',
-  //   },
-  // },
+  {
+    name: 'Rodrigo Dornellas',
+    image: '/img/testimonials/rodrigo_dornellas.jpeg',
+    review: `É com muita gratidão e confiança que venho aqui demonstrar meu apoio ao João Feijão, que sempre esteve ao nosso lado nos projetos sociais e esportivos. Tenho uma enorme admiração pelo seu envolvimento na defesa de uma sociedade mais justa, inclusiva e democrática. 
+Hoje, estou confiante de que ele reúne todas as qualificações para ser um excelente vereador. Feijão terá meu voto para representar os valores sociais que acredito serem essenciais para uma Belo Horizonte cada vez melhor, investindo em acessibilidade, oportunidades e na valorização de todas as pessoas.`,
+    designation: 'Fundador do Pernas de Aluguel BH',
+  },
 ];
 
 export default function Testimonial4() {
   return (
-    <div className='wrapper bg-light'>
+    <div className='wrapper bg-light' id='time-feijao'>
       <div className='container py-14 py-md-16'>
         <div className='row'>
           <div className='col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center'>

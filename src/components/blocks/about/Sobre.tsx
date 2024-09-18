@@ -25,15 +25,15 @@ export default function Sobre({
   return (
     <div
       className={`row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center flex ${
-        inverted ? 'flex-row-reverse' : ''
+        inverted ? 'flex-row' : 'flex-row-reverse'
       }`}
       id={id}
     >
-      <div className='col-lg-6 position-relative order-lg-2'>
+      <div className='flex-1 position-relative'>
         <Tiles5 images={images || []} />
       </div>
 
-      <div className='col-lg-6'>
+      <div className='flex-1'>
         <h2 className='display-4 mb-3 text-[#BE1E2E]'>{title}</h2>
 
         {lead && <p className='lead fs-lg'>{lead}</p>}

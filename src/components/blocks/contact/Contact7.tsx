@@ -5,7 +5,10 @@ import Link from 'next/link';
 
 export default function Contact7() {
   return (
-    <section className='wrapper bg-light angled upper-end lower-end'>
+    <section
+      className='wrapper bg-light angled upper-end lower-end'
+      id='contato'
+    >
       <div className='container pt-9 pb-7 pt-md-5 pb-md-4'>
         <div
           className={`row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center flex flex-row-reverse `}

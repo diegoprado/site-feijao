@@ -45,14 +45,16 @@ export default function TestimonialCard3({
 
             <div className='info'>
               <h5 className='mb-0'>{name}</h5>
-              <p className='mb-0'>{designation}</p>
-              <Link
-                target='_blank'
-                href={socialLink?.url || ''}
-                className='flex items-center text-sm'
-              >
-                @{socialLink?.label}
-              </Link>
+              {designation && <p className='mb-0'>{designation}</p>}
+              {socialLink && (
+                <Link
+                  target='_blank'
+                  href={socialLink?.url || ''}
+                  className='flex items-center text-sm'
+                >
+                  @{socialLink?.label}
+                </Link>
+              )}
             </div>
           </div>
         </blockquote>
